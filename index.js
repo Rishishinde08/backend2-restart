@@ -31,8 +31,6 @@ app.get("/about", (req, res) =>{
 // });
 
 
-
-
 app.get("/:username/:id" , ( req , res ) =>{
 
     let { username, id} = req.params;
